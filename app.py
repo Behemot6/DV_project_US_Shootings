@@ -104,7 +104,7 @@ app.layout = html.Div(
         html.H4(id="title",children="Fatal Police Shootings in the US"),
         html.P(
             id="description",
-            children='''In recent years, police brutality has become a controversial issue in the United States. Beginning in 2015, the Washington Post started to record every killing made by law enforcement, and it shows that the number of people killed by law enforcement has been increasing over the years. Our data only contains death by firearms and does not include deaths of individuals in police custody, or fatal shootings by off-duty policemen. Here are the numbers of fatal police shootings:''',
+            children='''In recent years, police brutality has become a controversial issue in the United States. Beginning in 2015, the Washington Post started to record every killing made by law enforcement, and it shows that the number of people killed by law enforcement has been increasing over the years. Our data contains death by firearms and does not include deaths of individuals in police custody, or fatal shootings by off-duty policemen. Here are the numbers of fatal police shootings:''',
         ),
         html.Br(),
         html.Div(
@@ -158,7 +158,7 @@ app.layout = html.Div(
         html.Br(),
         html.P(
             id="description2",
-            children='''The pie chart below shows a racial bias in US police killings. Even though the victims are a majority of white people (50.5%), compared to the distribution of the United States population by ethnicity, we realized that Black people are killed at a rate of 2.6 times more than White people, and Hispanics at a rate of 1.3 times more. Over the past five years, we can see that there haven’t been any changes in the racial disparity in deadly police shootings.  The rate of police killings of people of color is constant. ''',
+            children='''The pie chart below shows a racial bias in US police killings. Even though the victims are a majority of White people (50.5%), compared to the distribution of the United States population by ethnicity, we realized that Black people are killed at a rate 2.6 higher than White people, and Hispanic people at a rate of 1.3 times more. Over the past five years, we can see that there haven’t been any changes in the racial disparity in deadly police shootings.  The rate of police killings of people of color is systematic. ''',
                 ),
         html.Div(
             id="app-container2",
@@ -231,7 +231,7 @@ app.layout = html.Div(
         ),
         html.P(
             id="description3",
-            children='''The total number of deadly police shootings is only increasing every year. Is racial bias the only problem in US law enforcement? No, the following charts indicate that socioeconomic factors (income, population) have also an important influence on this issue. California, Texas, and Florida are the states with the most fatal shootings, as they are the most populated states. The chart of race share by states also shows that CA, TX, and FL are from the bottom 10 of “percentage of White population”.''',
+            children='''The total number of deadly police shootings is increasing every year. Is racial bias the only problem in US law enforcement? No, the following charts indicate that socioeconomic factors (income, population) have also an important influence on this issue. California, Texas, and Florida are the states with the most fatal shootings, as they are the most populated states. The chart of race share by states also shows that CA, TX, and FL are from the bottom 10 of “percentage of White population”.''',
             ),
         html.Br(),       
         html.Div(
@@ -342,7 +342,7 @@ app.layout = html.Div(
         ),
         html.P(
             id="description4",
-            children='''Police brutality in the United States has only been increasing over the past few years, and it remains a very current issue. Since the beginning of the year 2021, 213 people were shot and killed by US law enforcement. A new name was just added to the Washington Post records on Monday 29th of March: Adam Toledo, a 13-year-old boy that was killed by the Chicago Police. Our analyze, and visualization of Fatal police shootings in the United States indicates that socio-economic factors such as race, neighborhoods, social status, poverty, and age are all relevant.''',
+            children='''Police brutality in the United States has been increasing over the past few years, and it remains a very current issue. Since the beginning of the year 2021, 213 people were shot and killed by US law enforcement. A new name was just added to the Washington Post records on Monday 29th of March: Adam Toledo, a 13-year-old boy that was killed by the Chicago Police. Our analysis, and visualization of Fatal police shootings in the United States indicates that socio-economic factors such as race, neighborhoods, social status, poverty, and age are all relevant.''',
         ),
         html.Div(
             id="cards_footer",
@@ -355,7 +355,7 @@ app.layout = html.Div(
                         html.P(id="desc8",children="Edgardo Juarez | m20200749"),
                         html.P(id="desc9",children="Gonçalo Reis | m20200650"),
                         html.P(id="desc10",children="Li-lou Dang-Thai | m20200743"),
-                        html.P(id="desc14",children="Data Source: Kaggle and KFF"),
+                        html.P(id="desc14",children="Data Sources: Kaggle and KFF"),
                     ],
                 ),
             ],
